@@ -219,7 +219,7 @@ function buildAce(aceProject, options) {
         compat: true,
         modes: [
             "css", "html", "javascript", "php", "coldfusion", "python", "lua", "xml", "ruby", "java", "c_cpp",
-            "coffee", "perl", "csharp", "haxe", "svg", "clojure", "scss", "json", "groovy",
+            "coffee", "perl", "csharp", "haxe", "svg", "clojure", "scss", "json", "groovy", "alarm",
             "ocaml", "scala", "textile", "scad", "markdown", "latex", "powershell", "sql", "pgsql"
         ],
         themes: [
@@ -231,7 +231,7 @@ function buildAce(aceProject, options) {
             "tomorrow_night_blue", "tomorrow_night_bright", "tomorrow_night_eighties",
             "twilight", "vibrant_ink"
         ],
-        workers: ["javascript", "coffee", "css"],
+        workers: ["javascript", "coffee", "css", "alarm"],
         keybindings: ["vim", "emacs"]
     };
     
